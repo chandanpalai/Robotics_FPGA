@@ -1,0 +1,67 @@
+##############################################################
+#
+# Xilinx Core Generator version 13.4
+# Date: Fri Apr 27 20:25:28 2012
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+#  Generated from component: xilinx.com:ip:c_accum:11.0
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = VHDL
+SET device = xc3s500e
+SET devicefamily = spartan3e
+SET flowvendor = Other
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = fg320
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -4
+SET verilogsim = false
+SET vhdlsim = true
+# END Project Options
+# BEGIN Select
+SELECT Accumulator xilinx.com:ip:c_accum:11.0
+# END Select
+# BEGIN Parameters
+CSET accum_mode=Add
+CSET ainit_value=0
+CSET bypass=false
+CSET bypass_sense=Active_High
+CSET c_in=false
+CSET ce=true
+CSET component_name=accum_err_sum_16bits
+CSET implementation=Fabric
+CSET input_type=Signed
+CSET input_width=16
+CSET latency=1
+CSET latency_configuration=Manual
+CSET output_width=16
+CSET scale=0
+CSET sclr=true
+CSET sinit=false
+CSET sinit_value=0
+CSET sset=false
+CSET sync_ce_priority=Sync_Overrides_CE
+CSET syncctrlpriority=Reset_Overrides_Set
+# END Parameters
+# BEGIN Extra information
+MISC pkg_timestamp=2011-10-12T06:10:04Z
+# END Extra information
+GENERATE
+# CRC: 6f911c76

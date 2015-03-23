@@ -1,0 +1,244 @@
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "G:/Xilinx/UART_Zigbee_test/top.xst" -ofn "G:/Xilinx/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "G:/Xilinx/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -ise "E:/Acads/Sem6/BTP/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "E:/Acads/Sem6/BTP/UART_Zigbee_test/top.xst" -ofn "E:/Acads/Sem6/BTP/UART_Zigbee_test/top.syr" 
+xst -ise "E:/Acads/Sem6/BTP/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -ifn "E:/Acads/Sem6/BTP/UART_Zigbee_test/top.xst" -ofn "E:/Acads/Sem6/BTP/UART_Zigbee_test/top.syr" 
+ngdbuild -ise "UART_Zigbee_test.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -ise "UART_Zigbee_test.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -ise "UART_Zigbee_test.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf 
+trce -ise "E:/Acads/Sem6/BTP/UART_Zigbee_test/UART_Zigbee_test.ise" -intstyle ise -v 3 -s 4 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -ise "UART_Zigbee_test.ise" -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Documents/Studies/FPGA/Updated Xbee/top.xst" -ofn "E:/Documents/Studies/FPGA/Updated Xbee/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s500e-fg320-4 "top.ngc" top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "E:/Documents/Studies/FPGA/Updated Xbee/top.xst" -ofn "E:/Documents/Studies/FPGA/Updated Xbee/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s500e-fg320-4 "top.ngc" top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 

@@ -1,0 +1,33 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Sat Apr 28 19:44:14 2012
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "motor_enable" LOCATE = SITE "U18" LEVEL 1;
+COMP "disp_out<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "disp_out<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "disp_out<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "disp_out<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "disp_out<4>" LOCATE = SITE "G14" LEVEL 1;
+COMP "disp_out<5>" LOCATE = SITE "J17" LEVEL 1;
+COMP "disp_out<6>" LOCATE = SITE "H14" LEVEL 1;
+COMP "disp_out<7>" LOCATE = SITE "C17" LEVEL 1;
+COMP "disp_out<8>" LOCATE = SITE "F17" LEVEL 1;
+COMP "disp_out<9>" LOCATE = SITE "H17" LEVEL 1;
+COMP "motor_plus" LOCATE = SITE "R15" LEVEL 1;
+COMP "quadA" LOCATE = SITE "M14" LEVEL 1;
+PIN quadA_pin<0> = BEL "quadA" PINNAME PAD;
+PIN "quadA_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "quadB" LOCATE = SITE "M15" LEVEL 1;
+PIN quadB_pin<0> = BEL "quadB" PINNAME PAD;
+PIN "quadB_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "reset" LOCATE = SITE "B18" LEVEL 1;
+COMP "disp_out<10>" LOCATE = SITE "C18" LEVEL 1;
+COMP "disp_out<11>" LOCATE = SITE "F15" LEVEL 1;
+COMP "motor_minus" LOCATE = SITE "G15" LEVEL 1;
+COMP "clk_50" LOCATE = SITE "B8" LEVEL 1;
+NET "clk_50_BUFGP/IBUFG" BEL "clk_50_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+PIN reset_pins<0> = BEL "reset" PINNAME PAD;
+PIN "reset_pins<0>" TIG;
+SCHEMATIC END;
+

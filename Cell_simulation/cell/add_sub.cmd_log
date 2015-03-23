@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-5 "add_sub.ngc" add_sub.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o add_sub_map.ncd add_sub.ngd add_sub.pcf 
+par -w -intstyle ise -ol high -t 1 add_sub_map.ncd add_sub.ncd add_sub.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml add_sub.twx add_sub.ncd -o add_sub.twr add_sub.pcf 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.syr" 
+vhdtdtfi -prj cell -o "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhi" -module add_sub -template D:/Programs/xilinx/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ipcore_dir/sub3.vhd -lib work ipcore_dir/Inc.vhd -lib work ipcore_dir/Add3.vhd -lib work add_sub.vhd 

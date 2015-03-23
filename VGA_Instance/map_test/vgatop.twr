@@ -1,0 +1,110 @@
+--------------------------------------------------------------------------------
+Release 14.3 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+F:\xilinx\14.3\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml vgatop.twx vgatop.ncd -o vgatop.twr vgatop.pcf -ucf
+constraints.ucf
+
+Design file:              vgatop.ncd
+Physical constraint file: vgatop.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2012-10-12)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk_50
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+rst         |    7.582(R)|   -4.428(R)|clk_25            |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk_50 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+blank       |    6.127(R)|clk_25            |   0.000|
+color_out<0>|    8.283(R)|clk_25            |   0.000|
+color_out<1>|    8.971(R)|clk_25            |   0.000|
+color_out<2>|    8.294(R)|clk_25            |   0.000|
+color_out<3>|    8.966(R)|clk_25            |   0.000|
+color_out<4>|    8.694(R)|clk_25            |   0.000|
+color_out<5>|    9.414(R)|clk_25            |   0.000|
+color_out<6>|    9.709(R)|clk_25            |   0.000|
+color_out<7>|    9.983(R)|clk_25            |   0.000|
+hcount<0>   |    5.384(R)|clk_25            |   0.000|
+hcount<1>   |    5.614(R)|clk_25            |   0.000|
+hcount<2>   |    5.921(R)|clk_25            |   0.000|
+hcount<3>   |    5.377(R)|clk_25            |   0.000|
+hcount<4>   |    5.815(R)|clk_25            |   0.000|
+hcount<5>   |    6.097(R)|clk_25            |   0.000|
+hcount<6>   |    5.986(R)|clk_25            |   0.000|
+hcount<7>   |    6.286(R)|clk_25            |   0.000|
+hcount<8>   |    6.347(R)|clk_25            |   0.000|
+hcount<9>   |    5.815(R)|clk_25            |   0.000|
+hcount<10>  |    6.354(R)|clk_25            |   0.000|
+hs          |    6.198(R)|clk_25            |   0.000|
+vcount<0>   |    5.942(R)|clk_25            |   0.000|
+vcount<1>   |    6.415(R)|clk_25            |   0.000|
+vcount<2>   |    6.192(R)|clk_25            |   0.000|
+vcount<3>   |    5.883(R)|clk_25            |   0.000|
+vcount<4>   |    6.208(R)|clk_25            |   0.000|
+vcount<5>   |    5.304(R)|clk_25            |   0.000|
+vcount<6>   |    5.898(R)|clk_25            |   0.000|
+vcount<7>   |    5.591(R)|clk_25            |   0.000|
+vcount<8>   |    5.645(R)|clk_25            |   0.000|
+vcount<9>   |    5.653(R)|clk_25            |   0.000|
+vcount<10>  |    6.213(R)|clk_25            |   0.000|
+vs          |    5.627(R)|clk_25            |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk_50
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_50         |    6.485|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Jan 22 01:24:48 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 161 MB
+
+
+

@@ -1,0 +1,3 @@
+vhdl work "ipcore_dir/adder_15bit.vhd"
+vhdl work "ipcore_dir/counter_14bit_up.vhd"
+vhdl work "quad_decoder.vhd"

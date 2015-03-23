@@ -1,0 +1,6 @@
+work	"VgaRefComp.vhd"
+work	"dcm_25.vhd"
+work	"vga_controller_640_60.vhd"
+work	"vga_controller_800_60.vhd"
+work	"vga_selector.vhd"
+work	"vgatop.vhd"

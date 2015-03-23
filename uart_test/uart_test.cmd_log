@@ -1,0 +1,56 @@
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 uart_test.ngc uart_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf 
+par -w -intstyle ise -ol high -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_test.twx uart_test.ncd -o uart_test.twr uart_test.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f uart_test.ut uart_test.ncd 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 uart_test.ngc uart_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf 
+par -w -intstyle ise -ol high -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_test.twx uart_test.ncd -o uart_test.twr uart_test.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f uart_test.ut uart_test.ncd 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 uart_test.ngc uart_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf 
+par -w -intstyle ise -ol high -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_test.twx uart_test.ncd -o uart_test.twr uart_test.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f uart_test.ut uart_test.ncd 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 uart_test.ngc uart_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf 
+par -w -intstyle ise -ol high -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_test.twx uart_test.ncd -o uart_test.twr uart_test.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f uart_test.ut uart_test.ncd 
+xst -intstyle ise -ifn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.xst" -ofn "C:/Users/Priyam/Documents/Studies/FPGA/uart_test/uart_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 uart_test.ngc uart_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf 
+par -w -intstyle ise -ol high -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_test.twx uart_test.ncd -o uart_test.twr uart_test.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f uart_test.ut uart_test.ncd 

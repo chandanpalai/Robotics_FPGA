@@ -1,0 +1,7 @@
+vhdl work "ipcore_dir/sub3.vhd"
+vhdl work "ipcore_dir/Inc.vhd"
+vhdl work "ipcore_dir/Add3.vhd"
+vhdl work "comp5.vhd"
+vhdl work "max.vhd"
+vhdl work "add_sub.vhd"
+vhdl work "cell_top.vhd"

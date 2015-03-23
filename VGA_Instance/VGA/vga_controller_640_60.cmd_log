@@ -1,0 +1,1 @@
+vhdtdtfi -prj VGA -o "D:/Documents/Studies/Extra Projects/FPGA/Honours project/FPGA codes/VGA instance/VGA/vga_controller_640_60.vhi" -module vga_controller_640_60 -template C:/Xilinx/13.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work vga_controller_640_60.vhd 

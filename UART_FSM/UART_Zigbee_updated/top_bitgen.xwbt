@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Documents\Studies\FPGA\UART_Zigbee_updated\top.ncd
+OUTFILE=E:\Documents\Studies\FPGA\UART_Zigbee_updated\top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=E:\Documents\Studies\FPGA\UART_Zigbee_updated
+LICENSE=WebPack
+USER_INFO=0_0_477

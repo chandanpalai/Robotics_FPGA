@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Priyam\Documents\Studies\FPGA\uart_test\uart_test.ncd
+OUTFILE=C:\Users\Priyam\Documents\Studies\FPGA\uart_test\uart_test.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Priyam\Documents\Studies\FPGA\uart_test
+LICENSE=WebPack
+USER_INFO=0_0_656

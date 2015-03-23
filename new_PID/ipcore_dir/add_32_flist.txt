@@ -1,0 +1,14 @@
+# Output products list for <add_32>
+_xmsgs\pn_parser.xmsgs
+add_32.asy
+add_32.gise
+add_32.ngc
+add_32.vhd
+add_32.vho
+add_32.xco
+add_32.xise
+add_32\doc\c_addsub_v11_0_readme.txt
+add_32\doc\c_addsub_v11_0_vinfo.html
+add_32\doc\ds214_addsub.pdf
+add_32_flist.txt
+add_32_xmdf.tcl

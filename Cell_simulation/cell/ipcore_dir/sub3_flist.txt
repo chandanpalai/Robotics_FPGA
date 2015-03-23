@@ -1,0 +1,15 @@
+# Output products list for <sub3>
+_xmsgs\pn_parser.xmsgs
+sub3.asy
+sub3.gise
+sub3.ngc
+sub3.sym
+sub3.vhd
+sub3.vho
+sub3.xco
+sub3.xise
+sub3\doc\c_addsub_v11_0_readme.txt
+sub3\doc\c_addsub_v11_0_vinfo.html
+sub3\doc\ds214_addsub.pdf
+sub3_flist.txt
+sub3_xmdf.tcl

@@ -1,0 +1,81 @@
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+par -w -intstyle ise -ol high -t 1 cell_matrix_map.ncd cell_matrix.ncd cell_matrix.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cell_matrix.twx cell_matrix.ncd -o cell_matrix.twr cell_matrix.pcf 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+par -w -intstyle ise -ol high -t 1 cell_matrix_map.ncd cell_matrix.ncd cell_matrix.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cell_matrix.twx cell_matrix.ncd -o cell_matrix.twr cell_matrix.pcf 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+par -w -intstyle ise -ol high -t 1 cell_matrix_map.ncd cell_matrix.ncd cell_matrix.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cell_matrix.twx cell_matrix.ncd -o cell_matrix.twr cell_matrix.pcf 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+par -w -intstyle ise -ol high -t 1 cell_matrix_map.ncd cell_matrix.ncd cell_matrix.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+par -w -intstyle ise -ol high -t 1 cell_matrix_map.ncd cell_matrix.ncd cell_matrix.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cell_matrix.twx cell_matrix.ncd -o cell_matrix.twr cell_matrix.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f cell_matrix.ut cell_matrix.ncd 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+par -w -intstyle ise -ol high -t 1 cell_matrix_map.ncd cell_matrix.ncd cell_matrix.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cell_matrix.twx cell_matrix.ncd -o cell_matrix.twr cell_matrix.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f cell_matrix.ut cell_matrix.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+par -w -intstyle ise -ol high -t 1 cell_matrix_map.ncd cell_matrix.ncd cell_matrix.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cell_matrix.twx cell_matrix.ncd -o cell_matrix.twr cell_matrix.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f cell_matrix.ut cell_matrix.ncd 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+par -w -intstyle ise -ol high -t 1 cell_matrix_map.ncd cell_matrix.ncd cell_matrix.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cell_matrix.twx cell_matrix.ncd -o cell_matrix.twr cell_matrix.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f cell_matrix.ut cell_matrix.ncd 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+par -w -intstyle ise -ol high -t 1 cell_matrix_map.ncd cell_matrix.ncd cell_matrix.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cell_matrix.twx cell_matrix.ncd -o cell_matrix.twr cell_matrix.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f cell_matrix.ut cell_matrix.ncd 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+par -w -intstyle ise -ol high -t 1 cell_matrix_map.ncd cell_matrix.ncd cell_matrix.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cell_matrix.twx cell_matrix.ncd -o cell_matrix.twr cell_matrix.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f cell_matrix.ut cell_matrix.ncd 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+xst -intstyle ise -ifn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.xst" -ofn "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-5 "cell_matrix.ngc" cell_matrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o cell_matrix_map.ncd cell_matrix.ngd cell_matrix.pcf 
+par -w -intstyle ise -ol high -t 1 cell_matrix_map.ncd cell_matrix.ncd cell_matrix.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cell_matrix.twx cell_matrix.ncd -o cell_matrix.twr cell_matrix.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f cell_matrix.ut cell_matrix.ncd 
+vhdtdtfi -prj pipesim -o "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.vhi" -module cell_matrix -template D:/Programs/xilinx/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../../../../../../downloads/cell.vhd -lib work cell_matrix.vhd 
+vhdtdtfi -prj pipesim -o "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.vhi" -module cell_matrix -template D:/Programs/xilinx/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../../../../../../downloads/cell.vhd -lib work cell_matrix.vhd -lib work inst_dcm_25.vhd 

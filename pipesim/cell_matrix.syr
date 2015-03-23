@@ -1,0 +1,468 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: cell_matrix.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cell_matrix.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cell_matrix"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : cell_matrix
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/ipcore_dir/map_ram.vhd" in Library work.
+Architecture map_ram_a of Entity map_ram is up to date.
+Compiling vhdl file "D:/downloads/cell.vhd" in Library work.
+Architecture behavioral of Entity cell is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.vhd" in Library work.
+Entity <cell_matrix> compiled.
+Entity <cell_matrix> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <cell_matrix> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <cell> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <cell_matrix> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.vhd" line 85: Instantiating black box module <map_ram>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.vhd" line 94: Instantiating black box module <map_ram>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.vhd" line 103: Instantiating black box module <map_ram>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.vhd" line 112: Instantiating black box module <map_ram>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.vhd" line 121: Instantiating black box module <map_ram>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.vhd" line 130: Instantiating black box module <map_ram>.
+Entity <cell_matrix> analyzed. Unit <cell_matrix> generated.
+
+Analyzing Entity <cell> in library <work> (Architecture <behavioral>).
+Entity <cell> analyzed. Unit <cell> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <cell>.
+    Related source file is "D:/downloads/cell.vhd".
+WARNING:Xst:647 - Input <in1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <in2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <in4> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <in5> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <in6> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <in7> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <in8> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <data>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <cell> synthesized.
+
+
+Synthesizing Unit <cell_matrix>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/cell_matrix.vhd".
+WARNING:Xst:653 - Signal <wea<0>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <dina<0>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+    Found 3-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <cell_matrix> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 36
+ 1-bit register                                        : 36
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/map_ram.ngc>.
+Loading core <map_ram> for timing and area information for instance <r1>.
+Loading core <map_ram> for timing and area information for instance <r2>.
+Loading core <map_ram> for timing and area information for instance <r3>.
+Loading core <map_ram> for timing and area information for instance <r4>.
+Loading core <map_ram> for timing and area information for instance <r5>.
+Loading core <map_ram> for timing and area information for instance <r6>.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0201> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0202> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0203> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0204> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0205> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0206> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0301> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0302> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0303> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0304> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0305> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0306> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0401> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0402> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0403> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0404> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0405> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0406> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0501> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0502> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0503> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0504> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0505> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0506> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0601> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0602> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0603> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0604> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0605> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Inst_cell_0606> is unconnected in block <cell_matrix>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 36
+ Flip-Flops                                            : 36
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <Inst_cell_0606/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0605/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0604/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0603/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0602/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0601/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0506/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0505/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0504/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0503/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0502/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0501/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0406/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0405/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0404/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0403/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0402/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0401/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0306/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0305/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0304/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0303/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0302/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0301/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0206/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0205/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0204/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0203/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0202/data> of sequential type is unconnected in block <cell_matrix>.
+WARNING:Xst:2677 - Node <Inst_cell_0201/data> of sequential type is unconnected in block <cell_matrix>.
+
+Optimizing unit <cell_matrix> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block cell_matrix, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : cell_matrix.ngr
+Top Level Output File Name         : cell_matrix
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 7
+
+Cell Usage :
+# BELS                             : 16
+#      GND                         : 7
+#      LUT2                        : 1
+#      LUT3                        : 1
+#      VCC                         : 7
+# FlipFlops/Latches                : 9
+#      FD                          : 2
+#      FD_1                        : 6
+#      FDR                         : 1
+# RAMS                             : 6
+#      RAMB16_S36_S36              : 6
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 6
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                        5  out of   4656     0%  
+ Number of Slice Flip Flops:              9  out of   9312     0%  
+ Number of 4 input LUTs:                  2  out of   9312     0%  
+ Number of IOs:                           7
+ Number of bonded IOBs:                   7  out of    232     3%  
+ Number of BRAMs:                         6  out of     20    30%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 15    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.122ns (Maximum Frequency: 163.345MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.063ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.122ns (frequency: 163.345MHz)
+  Total number of paths / destination ports: 48 / 45
+-------------------------------------------------------------------------
+Delay:               3.061ns (Levels of Logic = 1)
+  Source:            r1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/spram.ram (RAM)
+  Destination:       Inst_cell_0101/data (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk falling
+
+  Data Path: r1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/spram.ram to Inst_cell_0101/data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16_S36_S36:CLKA->DOA0    1   2.436   0.357  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/spram.ram (douta<0>)
+     end scope: 'r1'
+     FD_1:D                    0.268          Inst_cell_0101/data
+    ----------------------------------------
+    Total                      3.061ns (2.704ns logic, 0.357ns route)
+                                       (88.3% logic, 11.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              4.063ns (Levels of Logic = 1)
+  Source:            Inst_cell_0101/data (FF)
+  Destination:       out_0101 (PAD)
+  Source Clock:      clk falling
+
+  Data Path: Inst_cell_0101/data to out_0101
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             2   0.514   0.380  Inst_cell_0101/data (Inst_cell_0101/data)
+     OBUF:I->O                 3.169          out_0101_OBUF (out_0101)
+    ----------------------------------------
+    Total                      4.063ns (3.683ns logic, 0.380ns route)
+                                       (90.6% logic, 9.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.42 secs
+ 
+--> 
+
+Total memory usage is 270940 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   75 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

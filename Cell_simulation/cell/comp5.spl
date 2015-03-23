@@ -1,0 +1,15 @@
+[Inputs]
+donea
+doneb
+bora
+borb
+=da[4:0]=
+=db[4:0]=
+=a[2:0]=
+=b[2:0]=
+[Outputs]
+doneout
+borout
+=dout[4:0]=
+=iout[2:0]=
+[BiDir]

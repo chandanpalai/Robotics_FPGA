@@ -1,0 +1,8 @@
+Release 12.3 Drc M.70d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Tue Jun 28 22:32:20 2011
+
+drc -z uart_test.ncd uart_test.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,34 @@
+SET_FLAG DEBUG FALSE
+SET_FLAG MODE INTERACTIVE
+SET_FLAG STANDALONE_MODE FALSE
+SET_PREFERENCE devicefamily spartan3e
+SET_PREFERENCE device xc3s500e
+SET_PREFERENCE speedgrade -5
+SET_PREFERENCE package fg320
+SET_PREFERENCE verilogsim false
+SET_PREFERENCE vhdlsim true
+SET_PREFERENCE simulationfiles Behavioral
+SET_PREFERENCE busformat BusFormatAngleBracketNotRipped
+SET_PREFERENCE outputdirectory D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/ipcore_dir/
+SET_PREFERENCE workingdirectory D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/ipcore_dir/tmp/
+SET_PREFERENCE subworkingdirectory D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/ipcore_dir/tmp/_cg/
+SET_PREFERENCE transientdirectory D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/ipcore_dir/tmp/_cg/_dbg/
+SET_PREFERENCE designentry VHDL
+SET_PREFERENCE flowvendor Other
+SET_PREFERENCE addpads false
+SET_PREFERENCE projectname coregen
+SET_PREFERENCE formalverification false
+SET_PREFERENCE asysymbol false
+SET_PREFERENCE implementationfiletype Ngc
+SET_PREFERENCE foundationsym false
+SET_PREFERENCE createndf false
+SET_PREFERENCE removerpms false
+SET_CORE_NAME Distributed Memory Generator
+SET_CORE_VERSION 6.3
+SET_CORE_VLNV xilinx.com:ip:dist_mem_gen:6.3
+SET_CORE_CLASS com.xilinx.ip.dist_mem_gen_v6_3.dist_mem_gen_v6_3
+SET_CORE_PATH D:/Programs/xilinx/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/dist_mem_gen_v6_3
+SET_CORE_GUIPATH D:/Programs/xilinx/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/dist_mem_gen_v6_3/gui/dist_mem_gen_v6_3.tcl
+SET_CORE_DATASHEET D:\Programs\xilinx\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\dist_mem_gen_v6_3\doc\dist_mem_gen_ds322.pdf
+ADD_CORE_DOCUMENT <D:\Programs\xilinx\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\dist_mem_gen_v6_3\doc\dist_mem_gen_ds322.pdf><dist_mem_gen_ds322.pdf>
+ADD_CORE_DOCUMENT <D:\Programs\xilinx\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\dist_mem_gen_v6_3\doc\dist_mem_gen_v6_3_vinfo.html><dist_mem_gen_v6_3_vinfo.html>

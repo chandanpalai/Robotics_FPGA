@@ -1,0 +1,3 @@
+NET "clk" LOC = B8;
+NET "tx" LOC = P9;
+NET "rx" LOC = U6;

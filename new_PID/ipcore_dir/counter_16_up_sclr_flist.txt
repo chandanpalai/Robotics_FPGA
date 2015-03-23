@@ -1,0 +1,16 @@
+# Output products list for <counter_16_up_sclr>
+_xmsgs\pn_parser.xmsgs
+core_resources.txt
+counter_16_up_sclr.asy
+counter_16_up_sclr.gise
+counter_16_up_sclr.ngc
+counter_16_up_sclr.vhd
+counter_16_up_sclr.vho
+counter_16_up_sclr.xco
+counter_16_up_sclr.xise
+counter_16_up_sclr\doc\c_counter_binary_v11_0_readme.txt
+counter_16_up_sclr\doc\c_counter_binary_v11_0_vinfo.html
+counter_16_up_sclr\doc\ds215_counter.pdf
+counter_16_up_sclr_flist.txt
+counter_16_up_sclr_xmdf.tcl
+gui_latency.txt

@@ -1,0 +1,5 @@
+vhdl isim_temp "ipcore_dir/sub3.vhd"
+vhdl isim_temp "comp5.vhd"
+vhdl isim_temp "max.vhd"
+vhdl isim_temp "add_sub.vhd"
+vhdl isim_temp "cell_top.vhd"

@@ -1,0 +1,3 @@
+vhdl work "ipcore_dir/map_ram.vhd"
+vhdl work "../../../../../../downloads/cell.vhd"
+vhdl work "cell_matrix.vhd"

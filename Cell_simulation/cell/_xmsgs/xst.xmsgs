@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">148</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">154</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">160</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">166</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">172</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">178</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">185</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">191</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">197</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">203</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">209</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">215</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Inc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">222</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Add3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">231</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Add3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">240</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Add3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">249</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Add3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">263</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">sub3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">273</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">sub3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">283</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">sub3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">293</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">sub3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">303</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">sub3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">313</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">sub3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">323</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">sub3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd</arg>&quot; line <arg fmt="%d" index="2">333</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">sub3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">sum8&lt;4&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">sum7&lt;4&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">sum6&lt;4&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">sum5&lt;4&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">i8</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">111</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">i7</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">110</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">i6</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">101</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">i5</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">100</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">i4</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">011</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">i3</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">010</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">i2</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">001</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">i1</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">bfin</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">done</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">cell_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">done</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">cell_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+</messages>
+

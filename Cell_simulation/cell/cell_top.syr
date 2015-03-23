@@ -1,0 +1,526 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: cell_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cell_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cell_top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : cell_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/comp5.vhd" in Library work.
+Architecture behavioral of Entity comp5 is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/ipcore_dir/Inc.vhd" in Library work.
+Architecture inc_a of Entity inc is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/ipcore_dir/Add3.vhd" in Library work.
+Architecture add3_a of Entity add3 is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/ipcore_dir/sub3.vhd" in Library work.
+Architecture sub3_a of Entity sub3 is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" in Library work.
+Architecture behavioral of Entity add_sub is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/max.vhd" in Library work.
+Architecture behavioral of Entity max is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/cell_top.vhd" in Library work.
+Entity <cell_top> compiled.
+Entity <cell_top> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <cell_top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <add_sub> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <max> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <comp5> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <cell_top> in library <work> (Architecture <behavioral>).
+Entity <cell_top> analyzed. Unit <cell_top> generated.
+
+Analyzing Entity <add_sub> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 148: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 154: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 160: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 166: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 172: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 178: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 185: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 191: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 197: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 203: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 209: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 215: Instantiating black box module <Inc>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 222: Instantiating black box module <Add3>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 231: Instantiating black box module <Add3>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 240: Instantiating black box module <Add3>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 249: Instantiating black box module <Add3>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 263: Instantiating black box module <sub3>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 273: Instantiating black box module <sub3>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 283: Instantiating black box module <sub3>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 293: Instantiating black box module <sub3>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 303: Instantiating black box module <sub3>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 313: Instantiating black box module <sub3>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 323: Instantiating black box module <sub3>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd" line 333: Instantiating black box module <sub3>.
+Entity <add_sub> analyzed. Unit <add_sub> generated.
+
+Analyzing Entity <max> in library <work> (Architecture <behavioral>).
+Entity <max> analyzed. Unit <max> generated.
+
+Analyzing Entity <comp5> in library <work> (Architecture <behavioral>).
+Entity <comp5> analyzed. Unit <comp5> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <comp5>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/comp5.vhd".
+    Found 5-bit comparator greater for signal <cmp$cmp_gt0000> created at line 53.
+    Found 1-bit xor2 for signal <sel$xor0000> created at line 54.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <comp5> synthesized.
+
+
+Synthesizing Unit <add_sub>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub.vhd".
+WARNING:Xst:653 - Signal <sum8<4>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <sum7<4>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <sum6<4>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <sum5<4>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <add_sub> synthesized.
+
+
+Synthesizing Unit <max>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/max.vhd".
+WARNING:Xst:653 - Signal <i8> is used but never assigned. This sourceless signal will be automatically connected to value 111.
+WARNING:Xst:653 - Signal <i7> is used but never assigned. This sourceless signal will be automatically connected to value 110.
+WARNING:Xst:653 - Signal <i6> is used but never assigned. This sourceless signal will be automatically connected to value 101.
+WARNING:Xst:653 - Signal <i5> is used but never assigned. This sourceless signal will be automatically connected to value 100.
+WARNING:Xst:653 - Signal <i4> is used but never assigned. This sourceless signal will be automatically connected to value 011.
+WARNING:Xst:653 - Signal <i3> is used but never assigned. This sourceless signal will be automatically connected to value 010.
+WARNING:Xst:653 - Signal <i2> is used but never assigned. This sourceless signal will be automatically connected to value 001.
+WARNING:Xst:653 - Signal <i1> is used but never assigned. This sourceless signal will be automatically connected to value 000.
+WARNING:Xst:646 - Signal <bfin> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <max> synthesized.
+
+
+Synthesizing Unit <cell_top>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/cell_top.vhd".
+    Found 2-bit register for signal <xout>.
+    Found 2-bit register for signal <yout>.
+    Found 1-bit register for signal <done>.
+    Found 5-bit register for signal <d>.
+    Found 2-bit 8-to-1 multiplexer for signal <tempx>.
+    Found 2-bit 8-to-1 multiplexer for signal <tempy>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <cell_top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 4
+ 1-bit register                                        : 1
+ 2-bit register                                        : 2
+ 5-bit register                                        : 1
+# Comparators                                          : 7
+ 5-bit comparator greater                              : 7
+# Multiplexers                                         : 2
+ 2-bit 8-to-1 multiplexer                              : 2
+# Xors                                                 : 7
+ 1-bit xor2                                            : 7
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/Inc.ngc>.
+Reading core <ipcore_dir/Add3.ngc>.
+Reading core <ipcore_dir/sub3.ngc>.
+Loading core <Inc> for timing and area information for instance <incx2>.
+Loading core <Inc> for timing and area information for instance <incx4>.
+Loading core <Inc> for timing and area information for instance <incx5>.
+Loading core <Inc> for timing and area information for instance <incx6>.
+Loading core <Inc> for timing and area information for instance <incx7>.
+Loading core <Inc> for timing and area information for instance <incx8>.
+Loading core <Inc> for timing and area information for instance <incy1>.
+Loading core <Inc> for timing and area information for instance <incy3>.
+Loading core <Inc> for timing and area information for instance <incy5>.
+Loading core <Inc> for timing and area information for instance <incy6>.
+Loading core <Inc> for timing and area information for instance <incy7>.
+Loading core <Inc> for timing and area information for instance <incy8>.
+Loading core <Add3> for timing and area information for instance <a5>.
+Loading core <Add3> for timing and area information for instance <a6>.
+Loading core <Add3> for timing and area information for instance <a7>.
+Loading core <Add3> for timing and area information for instance <a8>.
+Loading core <sub3> for timing and area information for instance <s1>.
+Loading core <sub3> for timing and area information for instance <s2>.
+Loading core <sub3> for timing and area information for instance <s3>.
+Loading core <sub3> for timing and area information for instance <s4>.
+Loading core <sub3> for timing and area information for instance <s5>.
+Loading core <sub3> for timing and area information for instance <s6>.
+Loading core <sub3> for timing and area information for instance <s7>.
+Loading core <sub3> for timing and area information for instance <s8>.
+WARNING:Xst:1710 - FF/Latch <done> (without init value) has a constant value of 1 in block <cell_top>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 10
+ Flip-Flops                                            : 10
+# Comparators                                          : 7
+ 5-bit comparator greater                              : 7
+# Multiplexers                                         : 2
+ 2-bit 8-to-1 multiplexer                              : 2
+# Xors                                                 : 7
+ 1-bit xor2                                            : 7
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <done> (without init value) has a constant value of 1 in block <cell_top>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <cell_top> ...
+
+Optimizing unit <add_sub> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block cell_top, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : cell_top.ngr
+Top Level Output File Name         : cell_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 91
+
+Cell Usage :
+# BELS                             : 546
+#      GND                         : 17
+#      INV                         : 12
+#      LUT2                        : 56
+#      LUT2_D                      : 8
+#      LUT3                        : 75
+#      LUT3_D                      : 20
+#      LUT3_L                      : 3
+#      LUT4                        : 129
+#      LUT4_D                      : 18
+#      LUT4_L                      : 11
+#      MUXCY                       : 64
+#      MUXF5                       : 36
+#      MUXF6                       : 4
+#      VCC                         : 13
+#      XORCY                       : 80
+# FlipFlops/Latches                : 97
+#      FD                          : 88
+#      FDE                         : 9
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 90
+#      IBUF                        : 80
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      234  out of   4656     5%  
+ Number of Slice Flip Flops:             97  out of   9312     1%  
+ Number of 4 input LUTs:                332  out of   9312     3%  
+ Number of IOs:                          91
+ Number of bonded IOBs:                  91  out of    232    39%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 97    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 15.061ns (Maximum Frequency: 66.395MHz)
+   Minimum input arrival time before clock: 15.860ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 15.061ns (frequency: 66.395MHz)
+  Total number of paths / destination ports: 393146 / 33
+-------------------------------------------------------------------------
+Delay:               15.061ns (Levels of Logic = 16)
+  Source:            add_sub_inc/s8/U0/xst_addsub/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q_c_out.i_simple.sub_q_cout.q_c_outreg/fd/output_1 (FF)
+  Destination:       yout_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: add_sub_inc/s8/U0/xst_addsub/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q_c_out.i_simple.sub_q_cout.q_c_outreg/fd/output_1 to yout_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.514   0.902  U0/xst_addsub/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q_c_out.i_simple.sub_q_cout.q_c_outreg/fd/output_1 (c_out)
+     end scope: 'add_sub_inc/s8'
+     LUT2_D:I0->O          3   0.612   0.454  max_compute/comp14/sel5 (max_compute/comp14/sel5)
+     LUT4:I3->O            1   0.612   0.426  max_compute/comp14/sel27_SW0_F (N325)
+     LUT3:I1->O            1   0.612   0.000  max_compute/comp14/dout<3>1_F (N371)
+     MUXF5:I0->O           7   0.278   0.605  max_compute/comp14/dout<3>1 (max_compute/d14<3>)
+     LUT4:I3->O            1   0.612   0.387  max_compute/comp22/cmp_cmp_gt0000267_SW0 (N64)
+     LUT4:I2->O            1   0.612   0.360  max_compute/comp22/cmp_cmp_gt00002115_SW0 (N143)
+     LUT4:I3->O            6   0.612   0.599  max_compute/comp22/cmp_cmp_gt00002115 (max_compute/comp22/cmp_cmp_gt0000)
+     LUT3:I2->O            2   0.612   0.410  max_compute/comp22/dout<0>1 (max_compute/d22<0>)
+     LUT4:I2->O            1   0.612   0.387  max_compute/comp_fin/cmp_cmp_gt0000239 (max_compute/comp_fin/cmp_cmp_gt0000239)
+     LUT4:I2->O            1   0.612   0.360  max_compute/comp_fin/cmp_cmp_gt0000267 (max_compute/comp_fin/cmp_cmp_gt0000267)
+     LUT4_D:I3->LO         1   0.612   0.130  max_compute/comp_fin/cmp_cmp_gt00002115 (N426)
+     LUT3:I2->O           16   0.612   0.909  max_compute/comp_fin/iout<0> (i<0>)
+     LUT3:I2->O            1   0.612   0.000  Mmux_tempy_61 (Mmux_tempy_61)
+     MUXF5:I0->O           1   0.278   0.000  Mmux_tempy_4_f5_0 (Mmux_tempy_4_f51)
+     MUXF6:I0->O           1   0.451   0.000  Mmux_tempy_2_f6_0 (tempy<1>)
+     FDE:D                     0.268          yout_1
+    ----------------------------------------
+    Total                     15.061ns (9.133ns logic, 5.928ns route)
+                                       (60.6% logic, 39.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 94688 / 102
+-------------------------------------------------------------------------
+Offset:              15.860ns (Levels of Logic = 16)
+  Source:            done7 (PAD)
+  Destination:       yout_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: done7 to yout_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.106   1.031  done7_IBUF (done7_IBUF)
+     LUT3_D:I0->O          2   0.612   0.532  max_compute/comp14/sel59_SW2 (N131)
+     LUT4:I0->O            1   0.612   0.426  max_compute/comp14/sel27_SW0_F (N325)
+     LUT3:I1->O            1   0.612   0.000  max_compute/comp14/dout<3>1_F (N371)
+     MUXF5:I0->O           7   0.278   0.605  max_compute/comp14/dout<3>1 (max_compute/d14<3>)
+     LUT4:I3->O            1   0.612   0.387  max_compute/comp22/cmp_cmp_gt0000267_SW0 (N64)
+     LUT4:I2->O            1   0.612   0.360  max_compute/comp22/cmp_cmp_gt00002115_SW0 (N143)
+     LUT4:I3->O            6   0.612   0.599  max_compute/comp22/cmp_cmp_gt00002115 (max_compute/comp22/cmp_cmp_gt0000)
+     LUT3:I2->O            2   0.612   0.410  max_compute/comp22/dout<0>1 (max_compute/d22<0>)
+     LUT4:I2->O            1   0.612   0.387  max_compute/comp_fin/cmp_cmp_gt0000239 (max_compute/comp_fin/cmp_cmp_gt0000239)
+     LUT4:I2->O            1   0.612   0.360  max_compute/comp_fin/cmp_cmp_gt0000267 (max_compute/comp_fin/cmp_cmp_gt0000267)
+     LUT4_D:I3->LO         1   0.612   0.130  max_compute/comp_fin/cmp_cmp_gt00002115 (N426)
+     LUT3:I2->O           16   0.612   0.909  max_compute/comp_fin/iout<0> (i<0>)
+     LUT3:I2->O            1   0.612   0.000  Mmux_tempy_61 (Mmux_tempy_61)
+     MUXF5:I0->O           1   0.278   0.000  Mmux_tempy_4_f5_0 (Mmux_tempy_4_f51)
+     MUXF6:I0->O           1   0.451   0.000  Mmux_tempy_2_f6_0 (tempy<1>)
+     FDE:D                     0.268          yout_1
+    ----------------------------------------
+    Total                     15.860ns (9.725ns logic, 6.135ns route)
+                                       (61.3% logic, 38.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            d_4 (FF)
+  Destination:       d<4> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: d_4 to d<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.514   0.357  d_4 (d_4)
+     OBUF:I->O                 3.169          d_4_OBUF (d<4>)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 19.05 secs
+ 
+--> 
+
+Total memory usage is 260892 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   39 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

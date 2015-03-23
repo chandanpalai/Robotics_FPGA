@@ -1,0 +1,24 @@
+NET "clk_50" LOC = B8 |  IOSTANDARD = LVCMOS25;
+NET "rst" LOC = H13; 
+
+NET "hs" LOC = T4;
+NET "vs" LOC = U3;
+NET "blank" LOC = R4;
+
+NET "color_out[0]" LOC = R9;
+NET "color_out[1]" LOC = T8;
+NET "color_out[2]" LOC = R8;
+NET "color_out[3]" LOC = N8;
+NET "color_out[4]" LOC = P8;
+NET "color_out[5]" LOC = P6;
+NET "color_out[6]" LOC = U5;
+NET "color_out[7]" LOC = U4;
+
+#NET "color_in[0]" LOC = R17;
+#NET "color_in[1]" LOC = N17;
+#NET "color_in[2]" LOC = L13;
+#NET "color_in[3]" LOC = L14;
+#NET "color_in[4]" LOC = K17;
+#NET "color_in[5]" LOC = K18;
+#NET "color_in[6]" LOC = H18;
+#NET "color_in[7]" LOC = G18;

@@ -1,0 +1,14 @@
+# Output products list for <Inc>
+Inc.asy
+Inc.gise
+Inc.ngc
+Inc.vhd
+Inc.vho
+Inc.xco
+Inc.xise
+Inc\doc\c_addsub_v11_0_readme.txt
+Inc\doc\c_addsub_v11_0_vinfo.html
+Inc\doc\ds214_addsub.pdf
+Inc_flist.txt
+Inc_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

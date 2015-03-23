@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Documents\Studies\Semester 5\Honours project\FPGA codes\pipesim\vgatop.ncd
+OUTFILE=D:\Documents\Studies\Semester 5\Honours project\FPGA codes\pipesim\vgatop.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=D:\Documents\Studies\Semester 5\Honours project\FPGA codes\pipesim
+LICENSE=WebPack
+USER_INFO=210000270_0_0_279

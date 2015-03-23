@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4 (64-bit)
+# Build 157570 by hdbuild on Fri Dec 16 13:06:31 MST 2011
+# Start of session at: Thu Jan 17 00:24:08 2013
+# Process ID: 6940
+# Log file: D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/planAhead_run_1/planAhead.log
+# Journal file: D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/Documents/Studies/Semester 5/Honours project/FPGA codes/pipesim/pa.fromNetlist.tcl}
+exit
+stop_gui

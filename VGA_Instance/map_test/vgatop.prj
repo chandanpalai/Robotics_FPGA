@@ -1,0 +1,6 @@
+vhdl work "vga_selector.vhd"
+vhdl work "vga_controller_640_60.vhd"
+vhdl work "VgaRefComp.vhd"
+vhdl work "ipcore_dir/dr.vhd"
+vhdl work "dcm_25.vhd"
+vhdl work "vgatop.vhd"

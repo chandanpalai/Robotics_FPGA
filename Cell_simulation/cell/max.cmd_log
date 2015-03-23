@@ -1,0 +1,3 @@
+vhdtdtfi -prj cell -o "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/max.vhi" -module max -template D:/Programs/xilinx/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work comp5.vhd -lib work max.vhd 
+vhdtdtfi -prj cell -o "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/max.vhi" -module max -template D:/Programs/xilinx/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work comp5.vhd -lib work max.vhd 
+vhdtdtfi -prj cell -o "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/max.vhi" -module max -template D:/Programs/xilinx/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work comp5.vhd -lib work max.vhd 

@@ -1,0 +1,4 @@
+vhdl work "ipcore_dir/sub3.vhd"
+vhdl work "ipcore_dir/Inc.vhd"
+vhdl work "ipcore_dir/Add3.vhd"
+vhdl work "add_sub.vhd"

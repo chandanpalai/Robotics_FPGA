@@ -1,0 +1,1 @@
+vhdtdtfi -prj VGA -o "D:/Documents/Studies/Extra Projects/FPGA/Honours project/FPGA codes/VGA instance/VGA/VgaRefComp.vhi" -module VgaRefComp -template C:/Xilinx/13.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work vga_selector.vhd -lib work vga_controller_800_60.vhd -lib work vga_controller_640_60.vhd -lib work VgaRefComp.vhd 

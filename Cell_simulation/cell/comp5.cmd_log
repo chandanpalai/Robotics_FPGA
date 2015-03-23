@@ -1,0 +1,7 @@
+vhdtdtfi -lib work comp5.vhd -prj cell -o comp5.spl -module comp5 -template D:/Programs/xilinx/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e comp5.spl {D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/comp5.sym} 
+vhdtdtfi -lib work comp5.vhd -prj cell -o comp5.spl -module comp5 -template D:/Programs/xilinx/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e comp5.spl {D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/comp5.sym} 
+vhdtdtfi -prj cell -o "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/comp5.vhi" -module comp5 -template D:/Programs/xilinx/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work comp5.vhd 
+vhdtdtfi -lib work comp5.vhd -prj cell -o comp5.spl -module comp5 -template D:/Programs/xilinx/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e comp5.spl {D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/comp5.sym} 

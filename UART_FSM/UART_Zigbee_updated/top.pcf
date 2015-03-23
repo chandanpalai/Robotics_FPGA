@@ -1,0 +1,59 @@
+//! **************************************************************************
+// Written by: Map M.70d on Sun Jul 03 04:21:54 2011
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "reset" LOCATE = SITE "B18" LEVEL 1;
+PIN reset_pin<0> = BEL "reset" PINNAME PAD;
+PIN "reset_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+COMP "LEDS<0>" LOCATE = SITE "R4" LEVEL 1;
+COMP "LEDS<1>" LOCATE = SITE "F4" LEVEL 1;
+COMP "LEDS<2>" LOCATE = SITE "P15" LEVEL 1;
+COMP "LEDS<3>" LOCATE = SITE "E17" LEVEL 1;
+COMP "LEDS<4>" LOCATE = SITE "K14" LEVEL 1;
+COMP "LEDS<5>" LOCATE = SITE "K15" LEVEL 1;
+COMP "LEDS<6>" LOCATE = SITE "J15" LEVEL 1;
+COMP "rx" LOCATE = SITE "P18" LEVEL 1;
+COMP "LEDS<7>" LOCATE = SITE "J14" LEVEL 1;
+COMP "disp" LOCATE = SITE "G18" LEVEL 1;
+COMP "tx" LOCATE = SITE "N18" LEVEL 1;
+COMP "clock" LOCATE = SITE "B8" LEVEL 1;
+TIMEGRP clkin = BEL "rdone" BEL "ve_0" BEL "ve_1" BEL "ve_2" BEL "ve_3" BEL
+        "ve_4" BEL "ve_5" BEL "ve_6" BEL "ve_7" BEL "dirs_0" BEL "dirs_1" BEL
+        "dirs_2" BEL "dirs_3" BEL "dirs_4" BEL "dirs_5" BEL "dirs_6" BEL
+        "dirs_7" BEL "UDR_0" BEL "UDR_1" BEL "UDR_2" BEL "UDR_3" BEL "UDR_4"
+        BEL "UDR_5" BEL "UDR_6" BEL "UDR_7" BEL "count_0" BEL "count_1" BEL
+        "count_2" BEL "count_3" BEL "state_0" BEL "state_1" BEL "state_2" BEL
+        "state_3" BEL "state_4" BEL "state_5" BEL "state_6" BEL "state_7" BEL
+        "MyInstanceName/rx_data_7" BEL "MyInstanceName/rx_data_6" BEL
+        "MyInstanceName/rx_data_5" BEL "MyInstanceName/rx_data_4" BEL
+        "MyInstanceName/rx_data_3" BEL "MyInstanceName/rx_data_2" BEL
+        "MyInstanceName/rx_data_1" BEL "MyInstanceName/rx_data_0" BEL
+        "MyInstanceName/rx_bits_remaining_2" BEL
+        "MyInstanceName/rx_bits_remaining_1" BEL
+        "MyInstanceName/rx_bits_remaining_0" BEL
+        "MyInstanceName/rx_countdown_5" BEL "MyInstanceName/rx_countdown_4"
+        BEL "MyInstanceName/rx_countdown_0" BEL
+        "MyInstanceName/rx_clk_divider_9" BEL
+        "MyInstanceName/rx_clk_divider_7" BEL
+        "MyInstanceName/rx_clk_divider_6" BEL
+        "MyInstanceName/rx_clk_divider_5" BEL
+        "MyInstanceName/rx_clk_divider_3" BEL
+        "MyInstanceName/rx_clk_divider_0" BEL "MyInstanceName/recv_state_1"
+        BEL "MyInstanceName/rx_bits_remaining_3" BEL
+        "MyInstanceName/rx_countdown_3" BEL "MyInstanceName/rx_countdown_2"
+        BEL "MyInstanceName/rx_countdown_1" BEL
+        "MyInstanceName/rx_clk_divider_10" BEL
+        "MyInstanceName/rx_clk_divider_8" BEL
+        "MyInstanceName/rx_clk_divider_4" BEL
+        "MyInstanceName/rx_clk_divider_2" BEL
+        "MyInstanceName/rx_clk_divider_1" BEL "MyInstanceName/recv_state_2"
+        BEL "MyInstanceName/recv_state_0" BEL "MyInstanceName/recv_state_2_1"
+        BEL "MyInstanceName/recv_state_1_1" BEL "clock_BUFGP/BUFG.GCLKMUX" BEL
+        "clock_BUFGP/BUFG";
+TS_clkin = PERIOD TIMEGRP "clkin" 20 ns HIGH 50%;
+PIN reset_pins<0> = BEL "reset" PINNAME PAD;
+PIN "reset_pins<0>" TIG;
+SCHEMATIC END;
+

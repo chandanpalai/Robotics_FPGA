@@ -1,0 +1,67 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - A core named 'subtractor_15bit_error' already exists in the
+   project. Output products for this core may be overwritten.
+Resolving generics for 'subtractor_15bit_error'...
+WARNING:sim - A core named 'subtractor_15bit_error' already exists in the
+   project. Output products for this core may be overwritten.
+Applying external generics to 'subtractor_15bit_error'...
+Delivering associated files for 'subtractor_15bit_error'...
+Generating implementation netlist for 'subtractor_15bit_error'...
+INFO:sim - Pre-processing HDL files for 'subtractor_15bit_error'...
+Running synthesis for 'subtractor_15bit_error'
+Running ngcbuild...
+Writing VHO instantiation template for 'subtractor_15bit_error'...
+Writing VHDL behavioral simulation model for 'subtractor_15bit_error'...
+Delivered 3 files into directory D:/Documents/Studies/Semester 5/Honours
+project/VHDL_PID/new_PID/ipcore_dir/tmp/_cg/subtractor_15bit_error
+Delivered 1 file into directory D:/Documents/Studies/Semester 5/Honours
+project/VHDL_PID/new_PID/ipcore_dir/tmp/_cg/subtractor_15bit_error
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'subtractor_15bit_error'...
+Generating metadata file...
+Regenerating ISE project file for 'subtractor_15bit_error'...
+Generating ISE project...
+XCO file found: subtractor_15bit_WARNING.xco
+XMDF file found: subtractor_15bit_WARNING_xmdf.tcl
+Adding D:/Documents/Studies/Semester 5/Honours
+project/VHDL_PID/new_PID/ipcore_dir/tmp/_cg/subtractor_15bit_WARNING.asy -view
+all -origin_type imported
+Adding D:/Documents/Studies/Semester 5/Honours
+project/VHDL_PID/new_PID/ipcore_dir/tmp/_cg/subtractor_15bit_WARNING.ngc -view
+all -origin_type created
+Checking file "D:/Documents/Studies/Semester 5/Honours
+project/VHDL_PID/new_PID/ipcore_dir/tmp/_cg/subtractor_15bit_WARNING.ngc" for
+project device match ...
+File "D:/Documents/Studies/Semester 5/Honours
+project/VHDL_PID/new_PID/ipcore_dir/tmp/_cg/subtractor_15bit_WARNING.ngc" device
+information matches project device.
+Adding D:/Documents/Studies/Semester 5/Honours
+project/VHDL_PID/new_PID/ipcore_dir/tmp/_cg/subtractor_15bit_WARNING.sym -view
+all -origin_type imported
+Adding D:/Documents/Studies/Semester 5/Honours
+project/VHDL_PID/new_PID/ipcore_dir/tmp/_cg/subtractor_15bit_WARNING.vhd -view
+all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file "D:/Documents/Studies/Semester
+   5/Honours
+   project/VHDL_PID/new_PID/ipcore_dir/tmp/_cg/subtractor_15bit_WARNING.vhd"
+into
+   library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding D:/Documents/Studies/Semester 5/Honours
+project/VHDL_PID/new_PID/ipcore_dir/tmp/_cg/subtractor_15bit_WARNING.vho -view
+all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/subtractor_15bit_WARNING"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'subtractor_15bit_error'.

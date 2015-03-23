@@ -1,0 +1,14 @@
+
+run
+-ifmt VHDL
+-ent dr_top 
+-p xc3s500e-fg320-4
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn dr_top 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

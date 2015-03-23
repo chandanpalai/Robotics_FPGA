@@ -1,0 +1,16 @@
+# Output products list for <bin_cntr_19>
+_xmsgs\pn_parser.xmsgs
+bin_cntr_19.asy
+bin_cntr_19.gise
+bin_cntr_19.ngc
+bin_cntr_19.vhd
+bin_cntr_19.vho
+bin_cntr_19.xco
+bin_cntr_19.xise
+bin_cntr_19\doc\c_counter_binary_v11_0_readme.txt
+bin_cntr_19\doc\c_counter_binary_v11_0_vinfo.html
+bin_cntr_19\doc\ds215_counter.pdf
+bin_cntr_19_flist.txt
+bin_cntr_19_xmdf.tcl
+core_resources.txt
+gui_latency.txt

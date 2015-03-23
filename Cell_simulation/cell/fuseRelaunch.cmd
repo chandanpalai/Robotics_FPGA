@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub_isim_beh.exe" -prj "D:/Documents/Studies/Semester 5/Honours project/FPGA codes/cell/add_sub_beh.prj" "work.add_sub" 

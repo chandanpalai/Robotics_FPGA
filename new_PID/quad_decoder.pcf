@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Mon Apr 02 17:07:53 2012
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk_50" LOCATE = SITE "B8" LEVEL 1;
+COMP "quadA" LOCATE = SITE "M14" LEVEL 1;
+PIN quadA_pin<0> = BEL "quadA" PINNAME PAD;
+PIN "quadA_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "quadB" LOCATE = SITE "M15" LEVEL 1;
+PIN quadB_pin<0> = BEL "quadB" PINNAME PAD;
+PIN "quadB_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "quad_count<10>" LOCATE = SITE "F4" LEVEL 1;
+COMP "reset" LOCATE = SITE "B18" LEVEL 1;
+COMP "quad_count<4>" LOCATE = SITE "J14" LEVEL 1;
+COMP "quad_count<11>" LOCATE = SITE "R4" LEVEL 1;
+COMP "quad_count<5>" LOCATE = SITE "J15" LEVEL 1;
+COMP "quad_count<6>" LOCATE = SITE "K15" LEVEL 1;
+COMP "quad_count<7>" LOCATE = SITE "K14" LEVEL 1;
+COMP "quad_count<8>" LOCATE = SITE "E17" LEVEL 1;
+COMP "quad_count<9>" LOCATE = SITE "P15" LEVEL 1;
+NET "clk_50_BUFGP/IBUFG" BEL "clk_50_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+PIN reset_pins<0> = BEL "reset" PINNAME PAD;
+PIN "reset_pins<0>" TIG;
+SCHEMATIC END;
+

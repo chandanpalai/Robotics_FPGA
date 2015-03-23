@@ -1,0 +1,52 @@
+Net "clk_50" LOC=B8 | IOSTANDARD=LVCMOS25;
+
+Net "reset" LOC = B18 | IOSTANDARD = LVCMOS25; #Bank = 0, pin name = IO_L33P, Sch name = BTNS
+Net "reset" TIG;
+
+NET "quadA" LOC = M14 |  IOSTANDARD = LVCMOS25;
+NET "quadA" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "quadB" LOC = M15 |  IOSTANDARD = LVCMOS25;
+NET "quadB" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "disp_out[0]" LOC = L18;
+NET "disp_out[1]" LOC = F18;
+NET "disp_out[2]" LOC = D17;
+NET "disp_out[3]" LOC = D16;
+NET "disp_out[4]" LOC = G14;
+NET "disp_out[5]" LOC = J17;
+NET "disp_out[6]" LOC = H14;
+NET "disp_out[7]" LOC = C17;
+NET "disp_out[8]" LOC = F17;
+NET "disp_out[9]" LOC = H17;
+NET "disp_out[10]" LOC = C18;
+NET "disp_out[11]" LOC = F15;
+
+NET "motor_plus" LOC = R15 |  IOSTANDARD = LVCMOS25;
+NET "motor_minus" LOC = G15 |  IOSTANDARD = LVCMOS25;
+NET "motor_enable" LOC = U18 |  IOSTANDARD = LVCMOS25;
+# Actual linkage of the encoders....for reference!
+
+#NET "quadA2" LOC = M14 |  IOSTANDARD = LVCMOS33;
+#NET "quadA2" CLOCK_DEDICATED_ROUTE = FALSE;
+#
+#NET "quadB2" LOC = M15 |  IOSTANDARD = LVCMOS33;
+#NET "quadB2" CLOCK_DEDICATED_ROUTE = FALSE;
+#
+#NET "quadA1" LOC = M16 |  IOSTANDARD = LVCMOS33;
+#NET "quadA1" CLOCK_DEDICATED_ROUTE = FALSE;
+#
+#NET "quadB1" LOC = L17 |  IOSTANDARD = LVCMOS33;
+#NET "quadB1" CLOCK_DEDICATED_ROUTE = FALSE;
+#
+#NET "quadA3" LOC = L16 |  IOSTANDARD = LVCMOS33;
+#NET "quadA3" CLOCK_DEDICATED_ROUTE = FALSE;
+#
+#NET "quadB3" LOC = K12 |  IOSTANDARD = LVCMOS33;
+#NET "quadB3" CLOCK_DEDICATED_ROUTE = FALSE;
+#
+#NET "quadA4" LOC = K13 |  IOSTANDARD = LVCMOS33;
+#NET "quadA4" CLOCK_DEDICATED_ROUTE = FALSE;
+#
+#NET "quadB4" LOC = L15 |  IOSTANDARD = LVCMOS33;
+#NET "quadB4" CLOCK_DEDICATED_ROUTE = FALSE;

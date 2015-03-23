@@ -1,0 +1,704 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Reading design: pid_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pid_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pid_top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : pid_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/add_3.vhd" in Library work.
+Architecture behavioral of Entity add_3 is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/my_pack.vhd" in Library work.
+Architecture my_pack of Entity my_pack is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/brk_add.vhd" in Library work.
+Architecture behavioral of Entity brk_add is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/ipcore_dir/counter_16_up_sclr.vhd" in Library work.
+Architecture counter_16_up_sclr_a of Entity counter_16_up_sclr is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/ipcore_dir/accum_err_sum_16bits.vhd" in Library work.
+Architecture accum_err_sum_16bits_a of Entity accum_err_sum_16bits is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/ipcore_dir/mult_16.vhd" in Library work.
+Architecture mult_16_a of Entity mult_16 is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/ipcore_dir/add_32.vhd" in Library work.
+Architecture add_32_a of Entity add_32 is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/ipcore_dir/bin_cntr_19.vhd" in Library work.
+Architecture bin_cntr_19_a of Entity bin_cntr_19 is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pres_clk.vhd" in Library work.
+Architecture behavioral of Entity pres_clk is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/bintobcd.vhd" in Library work.
+Architecture behavioral of Entity bintobcd is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/ipcore_dir/counter_14bit_up.vhd" in Library work.
+Architecture counter_14bit_up_a of Entity counter_14bit_up is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/ipcore_dir/adder_15bit.vhd" in Library work.
+Architecture adder_15bit_a of Entity adder_15bit is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/quad_decoder.vhd" in Library work.
+Architecture structural of Entity quad_decoder is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/display.vhd" in Library work.
+Architecture behavioral of Entity display is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/prescalar.vhd" in Library work.
+Architecture behavioral of Entity prescalar is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/ipcore_dir/subtractor_15bit_error.vhd" in Library work.
+Architecture subtractor_15bit_error_a of Entity subtractor_15bit_error is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pid_control.vhd" in Library work.
+Architecture behavioral of Entity pid_control is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/Pid_bounder.vhd" in Library work.
+Architecture structural of Entity pid_bounder is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pwm_gen.vhd" in Library work.
+Architecture behavioral of Entity pwm_gen is up to date.
+Compiling vhdl file "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pid_top.vhd" in Library work.
+Entity <pid_top> compiled.
+Entity <pid_top> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <pid_top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <quad_decoder> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <display> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <prescalar> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <pid_control> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Pid_bounder> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <pwm_gen> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <pres_clk> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <bintobcd> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <brk_add> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <add_3> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <pid_top> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pid_top.vhd" line 128: Instantiating black box module <subtractor_15bit_error>.
+Entity <pid_top> analyzed. Unit <pid_top> generated.
+
+Analyzing Entity <quad_decoder> in library <work> (Architecture <structural>).
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/quad_decoder.vhd" line 73: Instantiating black box module <FD>.
+    Set user-defined property "INIT =  0" for instance <FDA> in unit <quad_decoder>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/quad_decoder.vhd" line 74: Instantiating black box module <FD>.
+    Set user-defined property "INIT =  0" for instance <FDB> in unit <quad_decoder>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/quad_decoder.vhd" line 79: Instantiating black box module <counter_14bit_up>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/quad_decoder.vhd" line 80: Instantiating black box module <counter_14bit_up>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/quad_decoder.vhd" line 82: Instantiating black box module <adder_15bit>.
+Entity <quad_decoder> analyzed. Unit <quad_decoder> generated.
+
+Analyzing Entity <display> in library <work> (Architecture <behavioral>).
+Entity <display> analyzed. Unit <display> generated.
+
+Analyzing Entity <pres_clk> in library <work> (Architecture <behavioral>).
+Entity <pres_clk> analyzed. Unit <pres_clk> generated.
+
+Analyzing Entity <bintobcd> in library <work> (Architecture <behavioral>).
+Entity <bintobcd> analyzed. Unit <bintobcd> generated.
+
+Analyzing Entity <brk_add> in library <work> (Architecture <behavioral>).
+Entity <brk_add> analyzed. Unit <brk_add> generated.
+
+Analyzing Entity <add_3> in library <work> (Architecture <behavioral>).
+Entity <add_3> analyzed. Unit <add_3> generated.
+
+Analyzing Entity <prescalar> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/prescalar.vhd" line 57: Instantiating black box module <bin_cntr_19>.
+Entity <prescalar> analyzed. Unit <prescalar> generated.
+
+Analyzing Entity <pid_control> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pid_control.vhd" line 85: Instantiating black box module <accum_err_sum_16bits>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pid_control.vhd" line 88: Instantiating black box module <mult_16>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pid_control.vhd" line 91: Instantiating black box module <mult_16>.
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pid_control.vhd" line 94: Instantiating black box module <add_32>.
+Entity <pid_control> analyzed. Unit <pid_control> generated.
+
+Analyzing Entity <Pid_bounder> in library <work> (Architecture <structural>).
+Entity <Pid_bounder> analyzed. Unit <Pid_bounder> generated.
+
+Analyzing Entity <pwm_gen> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pwm_gen.vhd" line 55: Instantiating black box module <counter_16_up_sclr>.
+Entity <pwm_gen> analyzed. Unit <pwm_gen> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Pid_bounder>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/Pid_bounder.vhd".
+    Found 31-bit comparator greater for signal <high_time$cmp_gt0000> created at line 56.
+    Found 31-bit comparator less for signal <high_time$cmp_lt0000> created at line 53.
+    Summary:
+	inferred   2 Comparator(s).
+Unit <Pid_bounder> synthesized.
+
+
+Synthesizing Unit <pres_clk>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pres_clk.vhd".
+    Found 18-bit up counter for signal <count>.
+    Found 1-bit register for signal <op>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <pres_clk> synthesized.
+
+
+Synthesizing Unit <add_3>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/add_3.vhd".
+    Found 16x4-bit ROM for signal <output>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <add_3> synthesized.
+
+
+Synthesizing Unit <quad_decoder>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/quad_decoder.vhd".
+    Found 1-bit xor2 for signal <countA_en>.
+    Found 1-bit xor2 for signal <countB_en>.
+Unit <quad_decoder> synthesized.
+
+
+Synthesizing Unit <prescalar>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/prescalar.vhd".
+Unit <prescalar> synthesized.
+
+
+Synthesizing Unit <pid_control>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pid_control.vhd".
+Unit <pid_control> synthesized.
+
+
+Synthesizing Unit <pwm_gen>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pwm_gen.vhd".
+    Found 16-bit comparator less for signal <pwm_out$cmp_lt0000> created at line 56.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <pwm_gen> synthesized.
+
+
+Synthesizing Unit <brk_add>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/brk_add.vhd".
+Unit <brk_add> synthesized.
+
+
+Synthesizing Unit <bintobcd>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/bintobcd.vhd".
+WARNING:Xst:646 - Signal <op9<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op8<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op7<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op6<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op5<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op4<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op3<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op2<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op14<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op13<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op12<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op11<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op10<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op1<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op0<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <bintobcd> synthesized.
+
+
+Synthesizing Unit <display>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/display.vhd".
+    Found 16x8-bit ROM for signal <op3$mux0000> created at line 27.
+    Found 16x8-bit ROM for signal <op2$mux0000> created at line 27.
+    Found 16x8-bit ROM for signal <op1$mux0000> created at line 27.
+    Found 16x8-bit ROM for signal <op0$mux0000> created at line 27.
+    Found 8-bit register for signal <op<7:0>>.
+    Found 4-bit register for signal <anode>.
+    Found 4-bit register for signal <digit0>.
+    Found 4-bit register for signal <digit1>.
+    Found 4-bit register for signal <digit2>.
+    Found 4-bit register for signal <digit3>.
+    Summary:
+	inferred   4 ROM(s).
+	inferred  28 D-type flip-flop(s).
+Unit <display> synthesized.
+
+
+Synthesizing Unit <pid_top>.
+    Related source file is "D:/Documents/Studies/Semester 5/Honours project/VHDL_PID/new_PID/pid_top.vhd".
+Unit <pid_top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 64
+ 16x4-bit ROM                                          : 60
+ 16x8-bit ROM                                          : 4
+# Counters                                             : 1
+ 18-bit up counter                                     : 1
+# Registers                                            : 14
+ 1-bit register                                        : 9
+ 4-bit register                                        : 5
+# Comparators                                          : 3
+ 16-bit comparator less                                : 1
+ 31-bit comparator greater                             : 1
+ 31-bit comparator less                                : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/subtractor_15bit_error.ngc>.
+Reading core <ipcore_dir/counter_14bit_up.ngc>.
+Reading core <ipcore_dir/adder_15bit.ngc>.
+Reading core <ipcore_dir/bin_cntr_19.ngc>.
+Reading core <ipcore_dir/accum_err_sum_16bits.ngc>.
+Reading core <ipcore_dir/mult_16.ngc>.
+Reading core <ipcore_dir/add_32.ngc>.
+Reading core <ipcore_dir/counter_16_up_sclr.ngc>.
+Loading core <subtractor_15bit_error> for timing and area information for instance <sub0>.
+Loading core <counter_14bit_up> for timing and area information for instance <CDA>.
+Loading core <counter_14bit_up> for timing and area information for instance <CDB>.
+Loading core <adder_15bit> for timing and area information for instance <add1>.
+Loading core <bin_cntr_19> for timing and area information for instance <counter0>.
+Loading core <accum_err_sum_16bits> for timing and area information for instance <integrate0>.
+Loading core <mult_16> for timing and area information for instance <mult0>.
+Loading core <mult_16> for timing and area information for instance <mult1>.
+Loading core <add_32> for timing and area information for instance <add1>.
+Loading core <counter_16_up_sclr> for timing and area information for instance <counter1>.
+
+Synthesizing (advanced) Unit <display>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_op3_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_op2_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_op1_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_op0_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <display> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 64
+ 16x4-bit ROM                                          : 60
+ 16x8-bit ROM                                          : 4
+# Counters                                             : 1
+ 18-bit up counter                                     : 1
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+# Comparators                                          : 3
+ 16-bit comparator less                                : 1
+ 31-bit comparator greater                             : 1
+ 31-bit comparator less                                : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2146 - In block <bintobcd>, ROM <br0/b1/Mrom_output> <br0/b4/Mrom_output> <br0/b2/Mrom_output> <br0/b3/Mrom_output> are equivalent, XST will keep only <br0/b1/Mrom_output>.
+
+Optimizing unit <pid_top> ...
+
+Optimizing unit <Pid_bounder> ...
+
+Optimizing unit <bintobcd> ...
+
+Optimizing unit <display> ...
+WARNING:Xst:1710 - FF/Latch <op_7> (without init value) has a constant value of 1 in block <display>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pid_top, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 48
+ Flip-Flops                                            : 48
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : pid_top.ngr
+Top Level Output File Name         : pid_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 746
+#      GND                         : 10
+#      INV                         : 10
+#      LUT1                        : 77
+#      LUT2                        : 107
+#      LUT2_L                      : 6
+#      LUT3                        : 17
+#      LUT4                        : 135
+#      LUT4_D                      : 5
+#      LUT4_L                      : 5
+#      MUXCY                       : 204
+#      MUXF5                       : 2
+#      VCC                         : 8
+#      XORCY                       : 160
+# FlipFlops/Latches                : 254
+#      FD                          : 145
+#      FDE                         : 1
+#      FDR                         : 57
+#      FDRE                        : 44
+#      FDS                         : 7
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 3
+#      OBUF                        : 15
+# MULTs                            : 2
+#      MULT18X18SIO                : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      246  out of   4656     5%  
+ Number of Slice Flip Flops:            254  out of   9312     2%  
+ Number of 4 input LUTs:                362  out of   9312     3%  
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of    232     8%  
+ Number of MULT18X18SIOs:                 2  out of     20    10%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_50                             | BUFGP                  | 227   |
+inst_disp/pre1/op1                 | BUFG                   | 27    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.934ns (Maximum Frequency: 144.210MHz)
+   Minimum input arrival time before clock: 5.356ns
+   Maximum output required time after clock: 13.195ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_50'
+  Clock period: 6.934ns (frequency: 144.210MHz)
+  Total number of paths / destination ports: 5663 / 335
+-------------------------------------------------------------------------
+Delay:               6.934ns (Levels of Logic = 8)
+  Source:            prescale/counter0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_8 (FF)
+  Destination:       prescale/counter0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_1 (FF)
+  Source Clock:      clk_50 rising
+  Destination Clock: clk_50 rising
+
+  Data Path: prescale/counter0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_8 to prescale/counter0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_8 (q<7>)
+     end scope: 'prescale/counter0'
+     LUT3:I0->O            1   0.704   0.000  prescale/flag_cmp_eq0000_wg_lut<0> (prescale/flag_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  prescale/flag_cmp_eq0000_wg_cy<0> (prescale/flag_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  prescale/flag_cmp_eq0000_wg_cy<1> (prescale/flag_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  prescale/flag_cmp_eq0000_wg_cy<2> (prescale/flag_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  prescale/flag_cmp_eq0000_wg_cy<3> (prescale/flag_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O          45   0.331   1.345  prescale/flag_cmp_eq0000_wg_cy<4> (clk_100hz)
+     LUT2:I1->O           19   0.704   1.085  prescale/cntr_rst1 (prescale/cntr_rst)
+     begin scope: 'prescale/counter0'
+     FDR:R                     0.911          U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_1
+    ----------------------------------------
+    Total                      6.934ns (3.882ns logic, 3.052ns route)
+                                       (56.0% logic, 44.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'inst_disp/pre1/op1'
+  Clock period: 5.162ns (frequency: 193.723MHz)
+  Total number of paths / destination ports: 268 / 18
+-------------------------------------------------------------------------
+Delay:               5.162ns (Levels of Logic = 3)
+  Source:            inst_disp/anode_0 (FF)
+  Destination:       inst_disp/op_6 (FF)
+  Source Clock:      inst_disp/pre1/op1 rising
+  Destination Clock: inst_disp/pre1/op1 rising
+
+  Data Path: inst_disp/anode_0 to inst_disp/op_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.591   0.883  inst_disp/anode_0 (inst_disp/anode_0)
+     LUT4_D:I0->O          6   0.704   0.844  inst_disp/op_0_cmp_eq00021 (inst_disp/op_0_cmp_eq0002)
+     LUT4:I0->O            1   0.704   0.424  inst_disp/op_2_mux0001121 (inst_disp/op_2_mux0001121)
+     LUT4:I3->O            1   0.704   0.000  inst_disp/op_2_mux00011331 (inst_disp/op_2_mux0001133)
+     FDS:D                     0.308          inst_disp/op_2
+    ----------------------------------------
+    Total                      5.162ns (3.011ns logic, 2.151ns route)
+                                       (58.3% logic, 41.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_50'
+  Total number of paths / destination ports: 81 / 81
+-------------------------------------------------------------------------
+Offset:              5.356ns (Levels of Logic = 3)
+  Source:            reset (PAD)
+  Destination:       prescale/counter0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_1 (FF)
+  Destination Clock: clk_50 rising
+
+  Data Path: reset to prescale/counter0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            33   1.218   1.438  reset_IBUF (reset_IBUF)
+     LUT2:I0->O           19   0.704   1.085  prescale/cntr_rst1 (prescale/cntr_rst)
+     begin scope: 'prescale/counter0'
+     FDR:R                     0.911          U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_1
+    ----------------------------------------
+    Total                      5.356ns (2.833ns logic, 2.523ns route)
+                                       (52.9% logic, 47.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_50'
+  Total number of paths / destination ports: 1056 / 1
+-------------------------------------------------------------------------
+Offset:              13.195ns (Levels of Logic = 34)
+  Source:            pid0/add1/U0/xst_addsub/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_1 (FF)
+  Destination:       motor_enable (PAD)
+  Source Clock:      clk_50 rising
+
+  Data Path: pid0/add1/U0/xst_addsub/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_1 to motor_enable
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.706  U0/xst_addsub/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_1 (s<0>)
+     end scope: 'pid0/add1'
+     LUT1:I0->O            1   0.704   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<0>_rt (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<0> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<1> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<2> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<3> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<4> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<5> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<6> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<7> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<8> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<9> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<10> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<11> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<11>)
+     MUXCY:CI->O          16   0.459   1.209  inst_bounder/Mcompar_high_time_cmp_lt0000_cy<12> (inst_bounder/Mcompar_high_time_cmp_lt0000_cy<12>)
+     LUT4:I0->O            1   0.704   0.499  inst_bounder/high_time<1>1 (high_time<1>)
+     LUT2:I1->O            1   0.704   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_lut<1> (pwm0/Mcompar_pwm_out_cmp_lt0000_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<1> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<2> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<3> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<4> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<5> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<6> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<7> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<8> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<9> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<10> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<11> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<12> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<13> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<14> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<14>)
+     MUXCY:CI->O           1   0.459   0.420  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<15> (pwm0/Mcompar_pwm_out_cmp_lt0000_cy<15>)
+     INV:I->O              1   0.704   0.420  pwm0/Mcompar_pwm_out_cmp_lt0000_cy<15>_inv_INV_0 (motor_enable_OBUF)
+     OBUF:I->O                 3.272          motor_enable_OBUF (motor_enable)
+    ----------------------------------------
+    Total                     13.195ns (9.941ns logic, 3.254ns route)
+                                       (75.3% logic, 24.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'inst_disp/pre1/op1'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              4.571ns (Levels of Logic = 1)
+  Source:            inst_disp/anode_0 (FF)
+  Destination:       disp_out<11> (PAD)
+  Source Clock:      inst_disp/pre1/op1 rising
+
+  Data Path: inst_disp/anode_0 to disp_out<11>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.591   0.708  inst_disp/anode_0 (inst_disp/anode_0)
+     OBUF:I->O                 3.272          disp_out_11_OBUF (disp_out<11>)
+    ----------------------------------------
+    Total                      4.571ns (3.863ns logic, 0.708ns route)
+                                       (84.5% logic, 15.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 31.00 secs
+Total CPU time to Xst completion: 30.81 secs
+ 
+--> 
+
+Total memory usage is 272136 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   28 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+
